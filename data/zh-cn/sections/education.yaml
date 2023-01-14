@@ -20,8 +20,9 @@ degrees:
     scale: GPA
     achieved: 4.03
     outOf: 4.3
-  teaching:
-    - name: SCM
+  awards:
+    - name: 魁北克自然与科学基金(FRQNT)博士研究奖学金
+    - name: J.A. DeSève 博士优异奖学金
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true

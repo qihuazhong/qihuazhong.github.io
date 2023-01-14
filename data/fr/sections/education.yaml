@@ -20,8 +20,9 @@ degrees:
     scale: GPA
     achieved: 4.03
     outOf: 4.3
-  teaching:
-    - name: SCM
+  awards:
+    - name: Bourse de doctorat en recherche - Fonds de recherche du Québec Nature et technologies
+    - name: Bourse d'excellence J.A. DeSève (PhD)
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
@@ -43,15 +44,6 @@ degrees:
       achieved: 4.3
       outOf: 4.3
 
-      
-
-  # publications: #(optional)
-  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  #   url: "#"
-  # - title: Fusce eu augue ut odio porttitor pulvinar.
-  #   url: "#"
-  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-  #   url: "#"
 - name: M.Sc. in Golobal Supply Chain Management
   icon: fa-graduation-cap
   timeframe: 2012-2014
@@ -66,7 +58,6 @@ degrees:
   publications: #(optional)
   - title: "The One-Warehouse Multi-Retailer Problem with an Emission Constraint: Formulations, Analyses and Heuristics"
     url: "https://biblos.hec.ca/biblio/memoires/2014NO70.PDF"
-
 
 
 - name: B.Sc. in Finance

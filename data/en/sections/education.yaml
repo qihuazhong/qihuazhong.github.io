@@ -20,8 +20,9 @@ degrees:
     scale: GPA
     achieved: 4.03
     outOf: 4.3
-  teaching:
-    - name: SCM
+  awards:
+    - name: FRQNT Doctoral Research Scholarship
+    - name: J.A. DeSève (PhD) Merit Scholarship
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
@@ -44,14 +45,6 @@ degrees:
       outOf: 4.3
 
       
-
-  # publications: #(optional)
-  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  #   url: "#"
-  # - title: Fusce eu augue ut odio porttitor pulvinar.
-  #   url: "#"
-  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-  #   url: "#"
 - name: M.Sc. in Golobal Supply Chain Management
   icon: fa-graduation-cap
   timeframe: 2012-2014
