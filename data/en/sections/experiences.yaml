@@ -12,6 +12,19 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: HEC Montréal
+    url: "https://www.hec.ca"
+    location: Montréal, Canada
+    # company overview
+    overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
+  positions:
+  - designation: Faculty Lecturer
+    start: January 2023
+    responsibilities:
+    - "Teaching the course 10500A Operations Management."
+    - "Corrects the assignments and exams."
+
+- company:
     name: Southern University of Science & Technology
     url: "https://www.sustech.edu.cn/en/"
     location: Shenzhen, China
