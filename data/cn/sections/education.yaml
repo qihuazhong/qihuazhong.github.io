@@ -4,87 +4,78 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 4
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Ph.D in Operations Management and Logistics
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2019-present
   institution:
-    name: ABC University of Technology
-    url: "#"
+    name: HEC Montréal
+    url: "https://www.hec.ca"
   grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    scale: GPA
+    achieved: 4.03
+    outOf: 4.3
+  teaching:
+    - name: SCM
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
+    - name: (MATH-80629A) Machine Learning I
+      achieved: 4.3
+      outOf: 4.3
+    - name: "(MATH-80600A) Machine Learning II: Deep Learning"
+      achieved: 4.0
+      outOf: 4.3
+    - name: (MC-COMP767) Reinforcement Learning (at McGill University)
+      achieved: 4.0
+      outOf: 4.0
+    - name: (MATH-80680A) Dynamic Optimisation
+      achieved: 4.0
+      outOf: 4.3
+    - name: (OPER-80518A) Supply Chain Management
+      achieved: 4.3
+      outOf: 4.3
+
+      
+
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+- name: M.Sc. in Golobal Supply Chain Management
+  icon: fa-graduation-cap
+  timeframe: 2012-2014
+  institution:
+    name: HEC Montréal
+    url: "https://www.hec.ca"
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.54
+  #   outOf: 4.3
+
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
+  - title: "The One-Warehouse Multi-Retailer Problem with an Emission Constraint: Formulations, Analyses and Heuristics"
+    url: "https://biblos.hec.ca/biblio/memoires/2014NO70.PDF"
+
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+
+- name: B.Sc. in Finance
+  icon: fa-graduation-cap
+  timeframe: 2012-2014
   institution:
-    name: MST College of Science
+    name: Guangdong University of Foreign Studies
     url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
