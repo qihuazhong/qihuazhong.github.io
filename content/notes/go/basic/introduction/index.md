@@ -11,7 +11,7 @@ menu:
 <!-- A Sample Program -->
 {{< note title="Hello World">}}
 A sample go program is show here.
-  
+
 ```go
 package main
 
@@ -27,7 +27,7 @@ func greetMe(name string) string {
 }
 ```
 
-Run the program as below:
+**Run** the program as below:
 
 ```bash
 $ go run hello.go
