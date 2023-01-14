@@ -14,7 +14,7 @@ degrees:
   icon: fa-microscope
   timeframe: 2019-present
   institution:
-    name: HEC Montréal
+    name: 蒙特利尔高等商学院
     url: "https://www.hec.ca"
   grade: #(optional)
     scale: GPA
@@ -45,19 +45,11 @@ degrees:
       outOf: 4.3
 
       
-
-  # publications: #(optional)
-  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  #   url: "#"
-  # - title: Fusce eu augue ut odio porttitor pulvinar.
-  #   url: "#"
-  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-  #   url: "#"
 - name: 环球供应链管理硕士
   icon: fa-graduation-cap
   timeframe: 2012-2014
   institution:
-    name: HEC Montréal
+    name: 蒙特利尔高等商学院
     url: "https://www.hec.ca"
   # grade: #(optional)
   #   scale: CGPA
