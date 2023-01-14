@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: 教育
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -52,7 +52,7 @@ degrees:
   #   url: "#"
   # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
   #   url: "#"
-- name: M.Sc. in Golobal Supply Chain Management
+- name: 环球供应链管理硕士
   icon: fa-graduation-cap
   timeframe: 2012-2014
   institution:
@@ -67,15 +67,16 @@ degrees:
   - title: "The One-Warehouse Multi-Retailer Problem with an Emission Constraint: Formulations, Analyses and Heuristics"
     url: "https://biblos.hec.ca/biblio/memoires/2014NO70.PDF"
 
-  # extracurricularActivities: #(optional)
-  # - In vitae facilisis est, eget porta sem.
-  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  # - Duis sed massa feugiat, ornare justo et, aliquam est.
-  # - Pellentesque ut fringilla magna.
 
-- name: B.Sc. in Finance
+
+- name: 金融学学士
   icon: fa-graduation-cap
   timeframe: 2012-2014
   institution:
-    name: Guangdong University of Foreign Studies
-    url: "#"
+    name: 广东外语外贸大学
+    url: "https://www.gdufs.edu.cn/"
+  extracurricularActivities: #(optional)
+  - Excellent Academic Performance Scholarship, 2011 (Top 3%)
+  - Excellent Sports& Arts Performance Scholarship, 2009 (Top3%)
+  - L.O.V.E. 经贸学院志愿者协会
+  - 田径队
