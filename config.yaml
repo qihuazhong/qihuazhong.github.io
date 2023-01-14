@@ -17,6 +17,9 @@ languages:
   cn:
     languageName: 中文
     weight: 2
+  fr:
+    languageName: Française
+    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: en
@@ -263,7 +266,7 @@ params:
       customMenus: true
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
-      enable: false
+      enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
       enable: true
