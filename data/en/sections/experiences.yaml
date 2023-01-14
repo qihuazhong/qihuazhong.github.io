@@ -25,9 +25,8 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - "responsibilitiy #1"
-    - "responsibilitiy #2"
-    - "responsibilitiy #3"
+    - "Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data."
+
 
 - company:
     name: DHP Furniture
@@ -39,9 +38,9 @@ experiences:
     start: March 2017
     end: May 2018
     responsibilities:
-    - "responsibilitiy #1"
-    - "responsibilitiy #2"
-    - "responsibilitiy #3"
+    - Reported to Senior Forecast Manager. Provided ad-hoc analyses and reports.
+    - Responsible for implementing Demand Solution DSX, a forecasting and planning software.
+    - Managed forecast of various e-commerce accounts.
 
 - company:
     name: A.M.G. Medical Inc.
@@ -53,13 +52,12 @@ experiences:
     start: June 2016
     end:  March 2017
     responsibilities:
-    - "responsibilitiy #1"
-    - "responsibilitiy #2"
-    - "responsibilitiy #3"
+    - Reported to VP of Operations. Provided ad-hoc analyses and reports.
+    - Created customized dashboards to monitor inbound logistics and visualize inventory projection with HTML & Javascript
+    - Automated various internal business processes with MS Access/Excel.
   - designation: Forecasting & Planning Analyst
     start: March 2015
     end:  June 2016
     responsibilities:
-    - "responsibilitiy #1"
-    - "responsibilitiy #2"
-    - "responsibilitiy #3"
+    - "Managed demand forecast and inventory."
+    - "Provided ad-hoc analyses and reports."
