@@ -3,7 +3,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -27,7 +27,7 @@ projects:
   timeline: "May 2022"
   # repo: https://www.kaggle.com/competitions/kore-2022 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Rranked 4/469, won 3000 US$ cash prize in Kore 2022, a turn-based simulation game.
+  summary: Ranked 4/469, won 3000 US$ cash prize in Kore 2022 simulation, a coding competition sponsored by Google.
   tags: ["Competition"]
 
 - name: CodeML Hackathon 2022
@@ -38,22 +38,6 @@ projects:
   #url: ""
   summary: "Won 1st place in Team Challenge #3 (Gunshot Audio Detection) with a custom CNN model, and 2nd place in personal challenge (machine learning knowledge quiz)."
   tags: ["Competition", "machine-learning"]
-
-# - name: A sample academic paper
-#   role: Team Lead
-#   timeline: "Jan 2017 - Nov 2017"
-#   url: "https://www.example.com"
-#   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-#   tags: ["academic","iot"]
-
-# - name: Nocode
-#   logo: /images/sections/projects/no-code.png
-#   role: Nothing
-#   timeline: "Oct 2019 - Dec 2019"
-#   repo: https://github.com/kelseyhightower/nocode
-#   #url: ""
-#   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-#   tags: ["hobby", "fun"]
 
 - name: Pop Dictionary
   logo: /images/sections/projects/bpcd.png

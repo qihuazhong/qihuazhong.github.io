@@ -12,26 +12,26 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: HEC Montréal
+    name: 蒙特利尔高等商学院
     url: "https://www.hec.ca"
-    location: Montréal, Canada
+    location: 蒙特利尔, 加拿大
     # company overview
     overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
-  - designation: Chargé de cours
+  - designation: 讲师
     start: January 2023
     responsibilities:
-    - "Enseigne le cours 10500A Gestion des Opérations."
-    - "Corrige les travaux pratiques et les examens"
+    - "教授本科课程 10500A 《运营管理》"
+    - "批改学生的作业以及考试"
 
 - company:
-    name: Southern University of Science & Technology
+    name: 南方科技大学
     url: "https://www.sustech.edu.cn/en/"
-    location: Shenzhen, China
+    location: 深圳, 中国
     # company overview
     overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
-  - designation: Research Assistant
+  - designation: 研究助理
     start: July 2018
     end: August 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
@@ -43,10 +43,10 @@ experiences:
 - company:
     name: DHP Furniture
     url: "https://www.dhpfurniture.com/"
-    location: Montreal, Canada
+    location: 蒙特利尔, 加拿大
     overview: # PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
-  - designation: Demand Planner
+  - designation: 需求规划师
     start: March 2017
     end: May 2018
     responsibilities:
@@ -57,17 +57,17 @@ experiences:
 - company:
     name: A.M.G. Medical Inc.
     url: "https://amgmedical.com/"
-    location: Montreal, Canada
+    location: 蒙特利尔, 加拿大
     overview: # Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
-  - designation: Operations Analyst
+  - designation: 运营分析师
     start: June 2016
     end:  March 2017
     responsibilities:
     - Reported to VP of Operations. Provided ad-hoc analyses and reports.
     - Created customized dashboards to monitor inbound logistics and visualize inventory projection with HTML & Javascript
     - Automated various internal business processes with MS Access/Excel.
-  - designation: Forecasting & Planning Analyst
+  - designation: 预测&计划分析师
     start: March 2015
     end:  June 2016
     responsibilities:

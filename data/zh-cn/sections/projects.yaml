@@ -3,7 +3,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -27,7 +27,7 @@ projects:
   timeline: "May 2022"
   # repo: https://www.kaggle.com/competitions/kore-2022 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Rranked 4/469, won 3000 US$ cash prize in Kore 2022, a turn-based simulation game.
+  summary: Ranked 4/469, won 3000 US$ cash prize in Kore 2022 simulation, a coding competition sponsored by Google.
   tags: ["Competition"]
 
 - name: CodeML Hackathon 2022
