@@ -185,9 +185,11 @@ params:
     flags:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      flagOverwrites:
+        - languageCode: en
+          countryCode: ca
+        - languageCode: zh-cn
+          countryCode: cn
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
