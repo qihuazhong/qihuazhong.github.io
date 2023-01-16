@@ -23,7 +23,7 @@ buttons:
 projects:
 - name: Kaggle - Kore 2022
   logo: /images/sections/projects/kaggle.png
-  role: Solo Gold Medalist
+  role: 🥇 Solo Gold Medalist
   timeline: "May 2022"
   # repo: https://www.kaggle.com/competitions/kore-2022 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
@@ -32,7 +32,7 @@ projects:
 
 - name: CodeML Hackathon 2022
   logo: /images/sections/projects/polyai.png
-  role: Hackathon Winner
+  role: 🥇 Hackathon Winner
   timeline: "October 2022"
   # repo: https://github.com/tensorflow/tensorflow
   #url: ""
