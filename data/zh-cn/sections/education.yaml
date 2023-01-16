@@ -16,6 +16,10 @@ degrees:
   institution:
     name: 蒙特利尔高等商学院
     url: "https://www.hec.ca"
+  supervisors:
+    - name: Yossiri Adulyasak,
+    - name: Martin Cousineau
+    - name: and Raf Jans
   grade: #(optional)
     scale: GPA
     achieved: 4.03
@@ -23,6 +27,7 @@ degrees:
   awards:
     - name: 魁北克自然与科学基金(FRQNT)博士研究奖学金
     - name: J.A. DeSève 博士优异奖学金
+
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true

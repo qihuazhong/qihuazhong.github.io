@@ -16,6 +16,10 @@ degrees:
   institution:
     name: HEC Montréal
     url: "https://www.hec.ca"
+  supervisors:
+    - name: Yossiri Adulyasak,
+    - name: Martin Cousineau
+    - name: and Raf Jans
   grade: #(optional)
     scale: GPA
     achieved: 4.03
