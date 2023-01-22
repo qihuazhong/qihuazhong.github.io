@@ -13,11 +13,11 @@ buttons:
 - name: All
   filter: "all"
 - name: Academic
-  filter: "academic"
+  filter: "#academic"
 - name: Competition
-  filter: "competition"
+  filter: "#competition"
 - name: Hobby
-  filter: "hobby"
+  filter: "#hobby"
 
 # your projects
 projects:
@@ -29,7 +29,7 @@ projects:
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
 
   summary: Classé 4/469, remportant un prix en espèces de 3000 $ US dans la simulation Kore 2022, un concours de codage sponsorisé par Google. Un énorme avantage concurrentiel a été obtenu grâce à la réécriture des logiques de jeu en opérations vecteurs/matrices avec Numpy. Une 📝[écriture](https://www.kaggle.com/competitions/kore-2022/discussion/340157) peut être trouvée ici.
-  tags: ["competition", "Numpy"]
+  tags: ["#competition", "#Numpy"]
 
 - name: CodeML Hackathon 2022
   logo: /images/sections/projects/polyai.png
@@ -38,7 +38,7 @@ projects:
   # repo: https://github.com/tensorflow/tensorflow
   #url: ""
   summary: "A remporté la 1ère place dans le Team Challenge #3 (Gunshot Audio Detection) avec un modèle CNN personnalisé, et la 2ème place dans le challenge personnel (quiz sur les connaissances en apprentissage automatique)."
-  tags: ["competition", "machine-learning"]
+  tags: ["#competition", "#machine-learning"]
 
 - name: Pop Dictionary
   logo: /images/sections/projects/bpcd.png
@@ -46,4 +46,4 @@ projects:
   # timeline: "Jun 2019 - Present"
   repo: https://bopucidian.com/
   summary: Référence pour les argots chinois ! alias. Version chinoise du dictionnaire urbain.
-  tags: ["hobby"]
+  tags: ["#hobby"]
