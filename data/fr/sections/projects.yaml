@@ -28,8 +28,8 @@ projects:
   # repo: https://www.kaggle.com/competitions/kore-2022 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
 
-  summary: Classé 4/469, remportant un prix en espèces de 3000 $ US dans la simulation Kore 2022, un concours de codage sponsorisé par Google. Une 📝[écriture](https://www.kaggle.com/competitions/kore-2022/discussion/340157) peut être trouvée ici.
-  tags: ["competition"]
+  summary: Classé 4/469, remportant un prix en espèces de 3000 $ US dans la simulation Kore 2022, un concours de codage sponsorisé par Google. Un énorme avantage concurrentiel a été obtenu grâce à la réécriture des logiques de jeu en opérations vecteurs/matrices avec Numpy. Une 📝[écriture](https://www.kaggle.com/competitions/kore-2022/discussion/340157) peut être trouvée ici.
+  tags: ["competition", "Numpy"]
 
 - name: CodeML Hackathon 2022
   logo: /images/sections/projects/polyai.png
