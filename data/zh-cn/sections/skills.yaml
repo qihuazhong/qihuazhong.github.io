@@ -19,6 +19,10 @@ skills:
   logo: /images/sections/skills/pytorch.png
   summary: "Used for building deep learning models."
 
+- name: NumPy
+  logo: /images/sections/skills/numpy.svg
+  summary: "Used for machine learning, data analysis and problem solving."
+
 - name: Gurobi
   logo: /images/sections/skills/gurobi.png
   summary: "For solving Mixed-Integer-Linear-Programming."

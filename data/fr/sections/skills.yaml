@@ -43,6 +43,10 @@ skills:
   logo: /images/sections/skills/pytorch.png
   summary: Utilisé pour créer des modèles d'apprentissage en profondeur.
 
+- name: NumPy
+  logo: /images/sections/skills/numpy.svg
+  summary: Utilisé pour l'apprentissage automatique, l'analyse de données et la résolution de problèmes.
+
 - name: Gurobi
   logo: /images/sections/skills/gurobi.png
   summary: Pour résoudre "Mixed-Integer-Linear-Programming."

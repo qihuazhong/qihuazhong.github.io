@@ -30,10 +30,6 @@ skills:
 #   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
 #   url: "https://www.docker.com/"
 
-# - name: Prometheus
-#   logo: /images/sections/skills/prometheus.png
-#   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-#   url: "https://prometheus.io/"
 
 - name: Python
   logo: /images/sections/skills/python.jpg
@@ -42,6 +38,10 @@ skills:
 - name: Pytorch
   logo: /images/sections/skills/pytorch.png
   summary: "Used for building deep learning models."
+
+- name: NumPy
+  logo: /images/sections/skills/numpy.svg
+  summary: "Used for machine learning, data analysis and problem solving."
 
 - name: Gurobi
   logo: /images/sections/skills/gurobi.png
