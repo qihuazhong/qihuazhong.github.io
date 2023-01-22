@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Compétences
   id: skills
   enable: true
   weight: 5
@@ -37,27 +37,27 @@ skills:
 
 - name: Python
   logo: /images/sections/skills/python.jpg
-  summary: "Used for machine learning, data analysis and problem solving."
+  summary: Utilisé pour l'apprentissage automatique, l'analyse de données et la résolution de problèmes.
 
 - name: Pytorch
   logo: /images/sections/skills/pytorch.png
-  summary: "Used for building deep learning models."
+  summary: Utilisé pour créer des modèles d'apprentissage en profondeur.
 
 - name: Gurobi
   logo: /images/sections/skills/gurobi.png
-  summary: "For solving Mixed-Integer-Linear-Programming."
+  summary: Pour résoudre "Mixed-Integer-Linear-Programming."
 
 - name: Javascript
   logo: /images/sections/skills/js.png
-  summary: "For doing fun projects."
+  summary: Pour réaliser des projets ludiques.
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell.
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github."
+  summary: Expérimenté avec le développement basé sur git. Surtout, utilisez Github.
   url: "https://git-scm.com/"
 
 

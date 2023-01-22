@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: Éducation
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -10,7 +10,7 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Operations Management and Logistics
+- name: Ph.D in Gestion des Opérations et Logistique
   icon: fa-microscope
   timeframe: 2019-present
   institution:

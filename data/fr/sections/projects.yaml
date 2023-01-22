@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Projets
   id: projects
   enable: true
   weight: 2
@@ -27,7 +27,8 @@ projects:
   timeline: "May 2022"
   # repo: https://www.kaggle.com/competitions/kore-2022 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Ranked 4/469, winning 3000 US$ cash prize in Kore 2022 simulation, a coding competition sponsored by Google. A 📝[write up](https://www.kaggle.com/competitions/kore-2022/discussion/340157) can be found here.
+
+  summary: Classé 4/469, remportant un prix en espèces de 3000 $ US dans la simulation Kore 2022, un concours de codage sponsorisé par Google. Une 📝[écriture](https://www.kaggle.com/competitions/kore-2022/discussion/340157) peut être trouvée ici.
   tags: ["competition"]
 
 - name: CodeML Hackathon 2022
@@ -36,7 +37,7 @@ projects:
   timeline: "October 2022"
   # repo: https://github.com/tensorflow/tensorflow
   #url: ""
-  summary: "Won 1st place in Team Challenge #3 (Gunshot Audio Detection) with a custom CNN model, and 2nd place in personal challenge (machine learning knowledge quiz)."
+  summary: "A remporté la 1ère place dans le Team Challenge #3 (Gunshot Audio Detection) avec un modèle CNN personnalisé, et la 2ème place dans le challenge personnel (quiz sur les connaissances en apprentissage automatique)."
   tags: ["competition", "machine-learning"]
 
 - name: Pop Dictionary
@@ -44,5 +45,5 @@ projects:
   role: Cofounder/Developer
   # timeline: "Jun 2019 - Present"
   repo: https://bopucidian.com/
-  summary: Reference for the Chinese slangs! aka. Chinese version of the Urban Diactionary.
+  summary: Référence pour les argots chinois ! alias. Version chinoise du dictionnaire urbain.
   tags: ["hobby"]

@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: À propos
   id: about
   enable: true
   weight: 1
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a researcher working on machine learning applications in supply chain managemnt. I am particularly interested in Reinforcement Learning. Sometimes, I work on fun projects.'
+summary: "Je suis un chercheur travaillant sur des applications d'apprentissage automatique dans la gestion de la chaîne d'approvisionnement. Je suis particulièrement intéressé par l'apprentissage par renforcement. Parfois, je travaille sur des projets ludiques."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -79,12 +79,12 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Travail en équipe
   percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
+  name: Travailler dur
   percentage: 85
   color: orange
 

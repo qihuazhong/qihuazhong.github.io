@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Expériences
   id: experiences
   enable: true
   weight: 4
@@ -18,7 +18,7 @@ experiences:
     # company overview
     overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
-  - designation: Faculty Lecturer
+  - designation: Chargé de cours à temps partiel
     start: January 2023
     responsibilities:
     - "Teaching the course 10500A Operations Management."
@@ -31,7 +31,7 @@ experiences:
     # company overview
     overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
-  - designation: Research Assistant
+  - designation: Assistant de recherche
     start: July 2018
     end: August 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
