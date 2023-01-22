@@ -49,7 +49,7 @@ skills:
 
 - name: Gurobi
   logo: /images/sections/skills/gurobi.png
-  summary: Pour résoudre "Mixed-Integer-Linear-Programming."
+  summary: Pour résoudre des problèmes d'optimisation, tels que la programmation linéaire mixte en nombres entiers.
 
 - name: Javascript
   logo: /images/sections/skills/js.png

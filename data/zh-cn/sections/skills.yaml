@@ -25,7 +25,7 @@ skills:
 
 - name: Gurobi
   logo: /images/sections/skills/gurobi.png
-  summary: "For solving Mixed-Integer-Linear-Programming."
+  summary: "For solving optimization problems, such as Mixed-Integer-Linear-Programming."
 
 - name: Javascript
   logo: /images/sections/skills/js.png
