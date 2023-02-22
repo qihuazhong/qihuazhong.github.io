@@ -21,6 +21,15 @@ buttons:
 
 # your projects
 projects:
+- name: DRL for Multi-echelon inventory problems
+  logo: /images/sections/projects/snim.png
+  # role: 🥇 Solo Gold Medalist
+  # timeline: "May 2022"
+  repo: https://github.com/qihuazhong/multi-echelon-drl # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: An ongoing research project to apply DRL in Multi-echelon inventory problems. Check out my (early stage) [▶️presentation](https://www.youtube.com/watch?v=x_4i7ULuoew&list=LL&index=5) for IVADO Digital October.
+  tags: ["#学术", "PyTorch"]
+
 - name: Kaggle - Kore 2022
   logo: /images/sections/projects/kaggle.png
   role: 🥇 Solo Gold Medalist
@@ -34,7 +43,7 @@ projects:
   logo: /images/sections/projects/polyai.png
   role: 🥇 Hackathon Winner
   timeline: "October 2022"
-  # repo: https://github.com/tensorflow/tensorflow
+  repo: https://github.com/qihuazhong/cnn-gunshot-detection
   #url: ""
   summary: "Won 1st place in Team Challenge #3 (Gunshot Audio Detection) with a custom CNN model, and 2nd place in personal challenge (machine learning knowledge quiz)."
   tags: ["#竞赛", "#机器学习"]
@@ -45,4 +54,4 @@ projects:
   # timeline: "Jun 2019 - Present"
   repo: https://bopucidian.com/
   summary: Refercen for the Chinese slangs! aka. Chinese version of the Urban Dictionary.
-  tags: ["#爱好"]
+  tags: ["#爱好", "机器学习", "自然语言处理"]
