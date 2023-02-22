@@ -47,13 +47,17 @@ skills:
   logo: /images/sections/skills/gurobi.png
   summary: "For solving optimization problems, such as Mixed-Integer-Linear-Programming."
 
-- name: Javascript
+- name: Javascript/TypeScript
   logo: /images/sections/skills/js.png
   summary: "For doing fun projects."
 
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "I guess I'm going full-stack?"
 
 - name: Git
   logo: /images/sections/skills/git.png

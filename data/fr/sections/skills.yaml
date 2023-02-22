@@ -51,13 +51,17 @@ skills:
   logo: /images/sections/skills/gurobi.png
   summary: Pour résoudre des problèmes d'optimisation, tels que la programmation linéaire mixte en nombres entiers.
 
-- name: Javascript
+- name: Javascript/TypeScript
   logo: /images/sections/skills/js.png
   summary: Pour réaliser des projets ludiques.
 
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell.
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Je suppose que je vais faire du full-stack?"
 
 - name: Git
   logo: /images/sections/skills/git.png
