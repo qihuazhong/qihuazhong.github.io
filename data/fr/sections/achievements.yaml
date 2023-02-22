@@ -11,7 +11,7 @@ section:
 # Your achievements achievements
 achievements:
 - title: 1st place, CodeML Hackathon 2022
-  image: /images/sections/achievements/codeml.png
+  image: /images/sections/achievements/codeml.jpg
   summary: "Won 1st place in Team Challenge #3 (Gunshot Audio Detection) with a custom CNN model, and 2nd place in personal challenge (machine learning knowledge quiz)."
 - title: Solo Gold Medal, Kaggle - Kore 2022
   image: /images/sections/achievements/kaggle.png
