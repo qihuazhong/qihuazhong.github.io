@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Achievements
+  name: Réalisations
   id: achievements
   enable: true
   weight: 9
@@ -10,12 +10,12 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: 1st place, CodeML Hackathon 2022
+- title: 1re place, CodeML Hackathon 2022
   image: /images/sections/achievements/codeml.jpg
-  summary: "Won 1st place in Team Challenge #3 (Gunshot Audio Detection) with a custom CNN model, and 2nd place in personal challenge (machine learning knowledge quiz)."
-- title: Solo Gold Medal, Kaggle - Kore 2022
+  summary: "1re place au défi d’équipe no 3 (détection de coups de feu dans l’audio) avec un CNN sur mesure, et 2e place au quiz individuel d’apprentissage automatique."
+- title: Médaille d’or en solo, Kaggle - Kore 2022
   image: /images/sections/achievements/kaggle.png
-  summary: Solo Gold Medalist (ranked 4/469, won 3000 US$ cash prize) in Kore 2022, a turn-based simulation game.
-- title: Gold Medal, University Track & Field Meets
+  summary: Médaille d’or en solo à Kore 2022, une compétition de simulation commanditée par Google; 4e sur 469 (prix de 3 000 $).
+- title: Médaille d’or, compétition universitaire d’athlétisme
   image: /images/sections/achievements/4x100.jpg
-  summary: Representing the School of Economics and Trade, won the Gold Medal at the 4x100 event.
+  summary: Médaille d’or au relais 4x100 m, en représentant l’École d’économie et de commerce.

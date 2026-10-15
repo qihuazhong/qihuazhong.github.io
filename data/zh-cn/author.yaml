@@ -2,7 +2,7 @@
 name: "钟启华"
 nickname: "启华"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "你好，我是"
 image: "images/author/1516452835878.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -13,9 +13,8 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a Ph.D. student
-  - I am a researcher in ML applications in SCM
-  - I love to work with some fun projects
-  - I speak English
-  - Je parle Francais
-  - 我说中文
+  - 我是数据科学家与 AI 工程师
+  - 我从头到尾构建数据和 AI 系统
+  - 我专注于大模型工作流、预测和数据管道
+  - 我开发并运营 GPU PRIX（gpuprix.com）
+  - 我说中文和英文，正在学习法语

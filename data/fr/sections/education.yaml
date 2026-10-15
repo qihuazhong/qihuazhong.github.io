@@ -10,23 +10,23 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Gestion des Opérations et Logistique
+- name: Études doctorales (ABD), gestion des opérations et logistique
   icon: fa-microscope
-  timeframe: 2019-present
+  timeframe: 2019-2024
   institution:
     name: HEC Montréal
     url: "https://www.hec.ca"
   supervisors:
     - name: Yossiri Adulyasak,
     - name: Martin Cousineau
-    - name: and Raf Jans
+    - name: et Raf Jans
   grade: #(optional)
     scale: GPA
     achieved: 4.03
     outOf: 4.3
   awards:
-    - name: Bourse de doctorat en recherche - Fonds de recherche du Québec Nature et technologies
-    - name: Bourse d'excellence J.A. DeSève (PhD)
+    - name: Bourse de recherche doctorale du FRQNT
+    - name: Bourse d’excellence J.A. DeSève (doctorat)
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
@@ -48,7 +48,8 @@ degrees:
       achieved: 4.3
       outOf: 4.3
 
-- name: M.Sc. in Golobal Supply Chain Management
+      
+- name: M. Sc. en gestion de la chaîne d’approvisionnement mondiale
   icon: fa-graduation-cap
   timeframe: 2012-2014
   institution:
@@ -64,14 +65,15 @@ degrees:
     url: "https://biblos.hec.ca/biblio/memoires/2014NO70.PDF"
 
 
-- name: B.Econ. in Finance
+
+- name: Baccalauréat en économie, finance
   icon: fa-graduation-cap
-  timeframe: 2012-2014
+  timeframe: 2008-2012
   institution:
     name: Guangdong University of Foreign Studies
     url: "https://english.gdufs.edu.cn/"
   extracurricularActivities: #(optional)
-  - Excellent Academic Performance Scholarship, 2011 (Top 3%)
-  - Excellent Sports& Arts Performance Scholarship, 2009 (Top 3%)
-  - Volunteer Association
-  - Track&Field Team
+  - Bourse d’excellence académique, 2011 (3 % supérieurs)
+  - Bourse d’excellence sportive et artistique, 2009 (3 % supérieurs)
+  - Association de bénévoles
+  - Équipe d'athlétisme

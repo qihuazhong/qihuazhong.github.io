@@ -11,37 +11,61 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+# - name: Kubernetes
+#   logo: /images/sections/skills/kubernetes.png
+#   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+#   url: "https://kubernetes.io/"
+
+# - name: Go Development
+#   logo: /images/sections/skills/go.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Cloud Computing
+#   logo: /images/sections/skills/cloud.png
+#   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+# - name: Docker
+#   logo: /images/sections/skills/docker.svg
+#   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+#   url: "https://www.docker.com/"
+
+
 - name: Python
   logo: /images/sections/skills/python.jpg
-  summary: "Used for machine learning, data analysis and problem solving."
+  summary: "熟练。用于机器学习、数据管道、API（FastAPI）和数据分析；以及 SQL（PostgreSQL、SQLite）。"
 
-- name: Pytorch
+- name: 大模型工作流
+  logo: /images/sections/skills/cloud.png
+  summary: "智能体工作流（LangGraph、Claude API）、自动化输出评估、本地模型部署（llama.cpp）、嵌入与 RAG（pgvector）。"
+
+- name: PyTorch
   logo: /images/sections/skills/pytorch.png
-  summary: "Used for building deep learning models."
+  summary: "深度学习与强化学习（Stable Baselines3）；以及用于预测和表格模型的 scikit-learn、LightGBM。"
 
 - name: NumPy
   logo: /images/sections/skills/numpy.svg
-  summary: "Used for machine learning, data analysis and problem solving."
+  summary: "用于机器学习、数据分析和问题求解。"
 
 - name: Gurobi
   logo: /images/sections/skills/gurobi.png
-  summary: "For solving optimization problems, such as Mixed-Integer-Linear-Programming."
+  summary: "求解优化问题，如混合整数线性规划。"
 
 - name: Javascript/TypeScript
   logo: /images/sections/skills/js.png
-  summary: "For doing fun projects."
+  summary: "能够实际使用；用 Next.js 和 React 开发了 GPU PRIX 前端。"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "主力操作系统；能编写 bash/shell 脚本。"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "I guess I'm going full-stack?"
+  summary: "容器化服务，部署在 AWS（EC2、ECR）。"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github."
+  summary: "熟悉基于 git 的开发流程，主要使用 GitHub。"
   url: "https://git-scm.com/"
 
 

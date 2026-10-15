@@ -30,42 +30,42 @@ skills:
 #   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
 #   url: "https://www.docker.com/"
 
-# - name: Prometheus
-#   logo: /images/sections/skills/prometheus.png
-#   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-#   url: "https://prometheus.io/"
 
 - name: Python
   logo: /images/sections/skills/python.jpg
-  summary: Utilisé pour l'apprentissage automatique, l'analyse de données et la résolution de problèmes.
+  summary: "Niveau avancé. Apprentissage automatique, pipelines de données, API (FastAPI) et analyse; ainsi que SQL (PostgreSQL, SQLite)."
 
-- name: Pytorch
+- name: Flux LLM
+  logo: /images/sections/skills/cloud.png
+  summary: "Flux d’agents (LangGraph, API Claude), évaluation automatique des résultats, service de modèles locaux (llama.cpp), embeddings et RAG (pgvector)."
+
+- name: PyTorch
   logo: /images/sections/skills/pytorch.png
-  summary: Utilisé pour créer des modèles d'apprentissage en profondeur.
+  summary: "Apprentissage profond et par renforcement (Stable Baselines3). Aussi scikit-learn et LightGBM pour la prévision et les modèles tabulaires."
 
 - name: NumPy
   logo: /images/sections/skills/numpy.svg
-  summary: Utilisé pour l'apprentissage automatique, l'analyse de données et la résolution de problèmes.
+  summary: "Apprentissage automatique, analyse de données et résolution de problèmes."
 
 - name: Gurobi
   logo: /images/sections/skills/gurobi.png
-  summary: Pour résoudre des problèmes d'optimisation, tels que la programmation linéaire mixte en nombres entiers.
+  summary: "Résolution de problèmes d’optimisation, comme la programmation linéaire en nombres entiers mixtes."
 
 - name: Javascript/TypeScript
   logo: /images/sections/skills/js.png
-  summary: Pour réaliser des projets ludiques.
+  summary: "Connaissance pratique; interface de GPU PRIX développée avec Next.js et React."
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell.
+  summary: "Système d’exploitation principal; scripts bash/shell."
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Je suppose que je vais faire du full-stack?"
+  summary: "Services conteneurisés, déployés sur AWS (EC2, ECR)."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: Expérimenté avec le développement basé sur git. Surtout, utilisez Github.
+  summary: "Développement basé sur git, principalement avec GitHub."
   url: "https://git-scm.com/"
 
 

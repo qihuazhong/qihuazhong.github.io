@@ -6,70 +6,74 @@ section:
   weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 
 # Your experiences
 experiences:
 - company:
+    name: 自雇
+    location: 蒙特利尔, 加拿大
+  positions:
+  - designation: 独立数据科学家与 AI 工程师
+    start: January 2025
+    # no end date: shown as "Present"
+    responsibilities:
+    - "开发并运营 GPU PRIX（gpuprix.com），一个 GPU 规格与价格比较网站（Next.js、React、TypeScript、AWS EC2），搭建自动化数据采集流程；通过流量分析发现需求未被满足的市场并扩展进入，使网站日独立访客增长到 1,200+。"
+    - "搭建多智能体本地化流程：由前沿大模型智能体撰写英文内容，并将翻译交给专门的本地模型（llama.cpp 部署），自动检查长度、术语表、数字和代码，不合格的译文会被退回并要求修改。"
+    - "搭建定时运行的大模型智能体（LangGraph、Claude API），检查每条抓取到的商品是否归到了正确的 GPU 型号下，并对错误的商品重新归类或移除；设有费用上限、只审不改模式和准确率测试集，任何对线上数据的改动都须先通过这些关口。"
+    - "搭建低延迟数据管道，每天处理来自多家交易所的数 GB 实时成交和订单簿数据；训练多目标 LightGBM 分位数模型，预测短期价格波动率和收益。"
+    - "基于账户级持仓数据（自建区块链节点）绘制强平风险图，显示杠杆仓位会在哪些价格被强制平仓。"
+    - "开发 REST 和 WebSocket 服务（Python/FastAPI），使数据接入和特征工程与训练、推理和执行相互解耦。"
+
+- company:
     name: 蒙特利尔高等商学院
     url: "https://www.hec.ca"
     location: 蒙特利尔, 加拿大
-    # company overview
-    overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
-  - designation: 讲师
-    start: January 2023
+  - designation: 兼职讲师（运营管理）
+    start: September 2023
+    end: December 2024
     responsibilities:
-    - "教授本科课程 10500A 《运营管理》"
-    - "批改学生的作业以及考试"
+    - "为本科生讲授《运营管理》（10500A）课程；批改作业和考试。"
 
 - company:
     name: 南方科技大学
     url: "https://www.sustech.edu.cn/en/"
     location: 深圳, 中国
-    # company overview
-    overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
   - designation: 研究助理
     start: July 2018
     end: August 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - "Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data."
+    - "将 DNA 序列模式和表观遗传数据编码为嵌入向量，构建并解释 CNN 模型以预测基因表达水平。"
 
 - company:
-    name: DHP Furniture
+    name: DHP Furniture（Dorel Industries 旗下）
     url: "https://www.dhpfurniture.com/"
     location: 蒙特利尔, 加拿大
-    overview: # PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
-  - designation: 需求规划师
+  - designation: 需求计划员
     start: March 2017
-    end: May 2018
+    end: March 2018
     responsibilities:
-    - Reported to Senior Forecast Manager. Provided ad-hoc analyses and reports.
-    - Responsible for implementing Demand Solution DSX, a forecasting and planning software.
-    - Managed forecast of various e-commerce accounts.
+    - "主导公司引入 Demand Solutions DSX 预测与计划软件的实施。"
+    - "负责多个电商客户的需求预测。"
+    - "为管理层提供临时性的定量报告和分析。"
 
 - company:
     name: A.M.G. Medical Inc.
     url: "https://amgmedical.com/"
     location: 蒙特利尔, 加拿大
-    overview: # Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
   positions:
   - designation: 运营分析师
     start: June 2016
-    end:  March 2017
+    end: March 2017
     responsibilities:
-    - Reported to VP of Operations. Provided ad-hoc analyses and reports.
-    - Created customized dashboards to monitor inbound logistics and visualize inventory projection with HTML & Javascript
-    - Automated various internal business processes with MS Access/Excel.
-  - designation: 预测&计划分析师
+    - "每周提交积压库存报告，并主持每月的 S&OP 会议（参会者包括采购、运营副总裁和产品经理），分析结果直接决定采购和库存决策。"
+  - designation: 预测与计划分析师
     start: March 2015
-    end:  June 2016
+    end: June 2016
     responsibilities:
-    - "Managed demand forecast and inventory."
-    - "Provided ad-hoc analyses and reports."
+    - "通过建模季节性因素并清洗异常值提高预测准确度，在不增加库存的情况下将订单满足率从约 85% 提升到 90% 以上。"
+    - "将原本手工完成、仅覆盖最优先产品线的需求预测流程自动化，覆盖全部 3,000+ 个 SKU，并开发定制仪表盘（HTML/JavaScript）展示库存预测，并向销售团队提示销售趋势和异常。"

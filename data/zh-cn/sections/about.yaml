@@ -8,18 +8,18 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Ph.D. candidate
+designation: 数据科学家与 AI 工程师
 # your company information
-company:
-  name: HEC Montréal
-  url: "https://www.hec.ca"
+# company:
+#   name:
+#   url:
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a researcher working on machine learning applications in supply chain management. I am particularly interested in Reinforcement Learning. Sometimes I work on fun projects to develope my tech stacks.'
+summary: '我从头到尾构建数据和 AI 系统：采集数据、建模、部署，并检查输出是否正确。2025 年起我独立工作，开发并运营 GPU PRIX（gpuprix.com），一个日独立访客 1,200+ 的 GPU 规格与价格比较网站，包括它的数据采集流程，以及负责翻译内容和检查商品信息的大模型工作流。我还搭建了处理大规模加密货币市场数据的管道，并在其上构建了预测模型。在此之前：在蒙特利尔高等商学院（HEC Montréal）攻读博士（ABD），研究深度强化学习在库存管理中的应用；以及在蒙特利尔从事三年需求预测与计划工作。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -44,9 +44,9 @@ socialLinks:
 #   icon: "fab fa-twitter"
 #   url: "#"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "https://www.facebook.com/qihua.zhong"
+- name: GPU PRIX
+  icon: "fas fa-globe"
+  url: "https://gpuprix.com"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -73,20 +73,7 @@ badges:
 #   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
 #   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+# (soft-skill percentage bars removed)
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

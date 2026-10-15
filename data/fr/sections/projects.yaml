@@ -10,49 +10,59 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: Tous
   filter: "all"
-- name: Academic
+- name: Académique
   filter: "#academic"
-- name: Competition
+- name: Compétition
   filter: "#competition"
-- name: Hobby
+- name: Indépendant
+  filter: "#independent"
+- name: Loisir
   filter: "#hobby"
 
 # your projects
 projects:
-- name: DRL for Multi-echelon inventory problems
+- name: GPU PRIX
+  logo: /images/site/main-logo.png
+  role: Développeur indépendant
+  timeline: "2025 - aujourd’hui"
+  url: "https://gpuprix.com"
+  summary: "Site de comparaison de caractéristiques et de prix de GPU, plus de 1 200 visiteurs uniques par jour. J'ai conçu ses pipelines de collecte de données automatisés, un flux de localisation LLM (un modèle de pointe rédige le contenu, un modèle local le traduit, des vérifications automatiques rejettent les mauvais résultats) et un agent LLM planifié (LangGraph, API Claude) qui vérifie que les annonces collectées sont associées au bon GPU."
+  tags: ["#independent", "#LLM", "#data-pipelines"]
+
+- name: Apprentissage par renforcement profond pour les stocks multi-échelons
   logo: /images/sections/projects/snim.png
-  # role: 🥇 Solo Gold Medalist
+  # role: 🥇 Médaille d’or en solo
   # timeline: "May 2022"
   repo: https://github.com/qihuazhong/multi-echelon-drl # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: An ongoing research project to apply DRL in Multi-echelon inventory problems. Check out my (early stage) [▶️presentation](https://www.youtube.com/watch?v=x_4i7ULuoew&list=LL&index=5) for IVADO Digital October.
+  summary: Recherche doctorale appliquant l'apprentissage par renforcement profond à l'optimisation des stocks multi-échelons; conçu un environnement de simulation et entraîné des agents TD3, A2C et DQN (Stable Baselines3, PyTorch) pour prendre les décisions de stock. Voir ma [▶️présentation](https://www.youtube.com/watch?v=x_4i7ULuoew&list=LL&index=5) à IVADO Digital October.
   tags: ["#academic", "#PyTorch"]
+
 
 - name: Kaggle - Kore 2022
   logo: /images/sections/projects/kaggle.png
-  role: 🥇 Solo Gold Medalist
+  role: 🥇 Médaille d’or en solo
   timeline: "May 2022"
-  # repo: https://www.kaggle.com/competitions/kore-2022 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  repo: https://github.com/qihuazhong/kore-2022 # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-
-  summary: Classé 4/469, remportant un prix en espèces de 3000 $ US dans la simulation Kore 2022, un concours de codage sponsorisé par Google. Un énorme avantage concurrentiel a été obtenu grâce à la réécriture des logiques de jeu en opérations vecteurs/matrices avec Numpy. Une 📝[écriture](https://www.kaggle.com/competitions/kore-2022/discussion/340157) peut être trouvée ici.
+  summary: Participation en solo à Kore 2022, une compétition de simulation commanditée par Google avec des limites strictes de calcul et de mémoire par tour; 4e sur 469 (médaille d'or en solo, prix de 3 000 $). Avantage obtenu en réécrivant la logique de simulation en opérations matricielles vectorisées avec NumPy. Un 📝[compte rendu](https://www.kaggle.com/competitions/kore-2022/discussion/340157) est disponible sur Kaggle.
   tags: ["#competition", "#Numpy"]
 
 - name: CodeML Hackathon 2022
   logo: /images/sections/projects/polyai.png
-  role: 🥇 Hackathon Winner
+  role: 🥇 1re place
   timeline: "October 2022"
   repo: https://github.com/qihuazhong/cnn-gunshot-detection
   #url: ""
-  summary: "A remporté la 1ère place dans le Team Challenge #3 (Gunshot Audio Detection) avec un modèle CNN personnalisé, et la 2ème place dans le challenge personnel (quiz sur les connaissances en apprentissage automatique)."
+  summary: "1re place au défi d'équipe no 3 (détection de coups de feu dans l'audio) avec un CNN sur mesure, et 2e place parmi plus de 100 participants au quiz individuel d'apprentissage automatique."
   tags: ["#competition", "#machine-learning"]
 
-- name: Pop Dictionary
+- name: Pop Dictionary (波普词典)
   logo: /images/sections/projects/bpcd.png
-  role: Cofounder/Developer
+  role: Cofondateur et développeur
   # timeline: "Jun 2019 - Present"
   repo: https://bopucidian.com/
-  summary: Référence pour les argots chinois ! alias. Version chinoise du dictionnaire urbain.
+  summary: Référence participative d'argot chinois (« Urban Dictionary chinois »); embeddings de LLM open source pour la recherche par similarité afin de proposer des termes connexes.
   tags: ["#hobby", "#machine-learning", "#NLP"]

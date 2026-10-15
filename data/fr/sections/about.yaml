@@ -8,18 +8,18 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Ph.D. candidate
+designation: Scientifique de données et ingénieur IA
 # your company information
-company:
-  name: HEC Montréal
-  url: "https://www.hec.ca"
+# company:
+#   name:
+#   url:
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Je suis un chercheur travaillant sur des applications d'apprentissage automatique dans la gestion de la chaîne d'approvisionnement. Je suis particulièrement intéressé par l'apprentissage par renforcement. Parfois, je travaille sur des projets ludiques pour développer ma pile technologique."
+summary: "Je conçois des systèmes de données et d'IA de bout en bout : collecte des données, modélisation, déploiement et vérification des résultats. Depuis 2025, je travaille de façon indépendante. J'ai développé et j'exploite GPU PRIX (gpuprix.com), un site de comparaison de caractéristiques et de prix de GPU qui compte plus de 1 200 visiteurs uniques par jour, y compris ses pipelines de collecte de données et les flux LLM qui traduisent son contenu et vérifient ses fiches produits. J'ai aussi construit des pipelines de données de marché crypto à haut volume et des modèles de prévision sur ces données. Auparavant : études doctorales (ABD) à HEC Montréal sur l'apprentissage par renforcement profond appliqué aux stocks, et trois ans en prévision de la demande et planification à Montréal."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -44,9 +44,9 @@ socialLinks:
 #   icon: "fab fa-twitter"
 #   url: "#"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "https://www.facebook.com/qihua.zhong"
+- name: GPU PRIX
+  icon: "fas fa-globe"
+  url: "https://gpuprix.com"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -73,20 +73,7 @@ badges:
 #   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
 #   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Travail en équipe
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Travailler dur
-  percentage: 85
-  color: orange
+# (soft-skill percentage bars removed)
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

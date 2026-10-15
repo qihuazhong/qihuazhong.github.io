@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Certificates
+  name: 证书
   id: accomplishments
   enable: true
   weight: 8
@@ -16,7 +16,7 @@ accomplishments:
   organization:
     name:  Institut Mines-Télécom & Dartmouth College on Coursera
     url: "https://www.coursera.org/account/accomplishments/specialization/certificate/VRW4CUJRZHPB"
-  courseOverview: "A 7-course specializaiton that covers various topics: Linux Basics, Language Foundations, Modular Programming and Memory Management, Pointers and Memory Management, Advanced Data Types, etc."
+  courseOverview: "A 7-course specialization that covers various topics: Linux Basics, Language Foundations, Modular Programming and Memory Management, Pointers and Memory Management, Advanced Data Types, etc."
   certificateURL: "https://www.coursera.org/account/accomplishments/specialization/certificate/VRW4CUJRZHPB"
 
 
@@ -36,5 +36,5 @@ accomplishments:
   organization:
     name: DeepLearning.AI on Coursera
     url: https://www.deeplearning.ai/
-  courseOverview: "A 5-course specializaiton that covers various topics: Neural Networks and Deep Learning, Convolutional Neural Networks, Sequence Models, Hyperparameter Tuning, Regularization and Optimization and Structuring Machine Learning Projects."
+  courseOverview: "A 5-course specialization that covers various topics: Neural Networks and Deep Learning, Convolutional Neural Networks, Sequence Models, Hyperparameter Tuning, Regularization and Optimization and Structuring Machine Learning Projects."
   certificateURL: "https://www.coursera.org/account/accomplishments/specialization/certificate/TG9AEZLBBZYQ"

@@ -6,71 +6,74 @@ section:
   weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 
 # Your experiences
 experiences:
 - company:
+    name: Travailleur autonome
+    location: Montréal, Canada
+  positions:
+  - designation: Scientifique de données et ingénieur IA indépendant
+    start: January 2025
+    # no end date: shown as "Present"
+    responsibilities:
+    - "Développe et exploite GPU PRIX (gpuprix.com), un site de comparaison de caractéristiques et de prix de GPU (Next.js, React, TypeScript, AWS EC2) avec des pipelines de collecte de données automatisés; l'a fait croître à plus de 1 200 visiteurs uniques par jour en analysant le trafic pour repérer des marchés mal desservis et s'y étendre."
+    - "Conçu un flux de localisation multi-agents : un agent LLM de pointe rédige le contenu en anglais et délègue la traduction à un modèle local spécialisé (servi avec llama.cpp), avec des vérifications automatiques de longueur, de glossaire, de chiffres et de code qui rejettent une mauvaise traduction et demandent une révision."
+    - "Conçu un agent LLM planifié (LangGraph, API Claude) qui vérifie que chaque annonce collectée est associée au bon GPU, puis la reclasse ou la retire en cas d'erreur, avec des plafonds de dépenses, un mode révision seule et un jeu de test de précision qui encadrent toute modification des données en production."
+    - "Conçu des pipelines à faible latence traitant plusieurs Go par jour de données de transactions et de carnets d'ordres en temps réel provenant de plusieurs plateformes; entraîné des modèles LightGBM quantiles multi-cibles de la volatilité et des rendements à court terme."
+    - "Construit des cartes de risque de liquidation à partir des positions par compte (nœud blockchain auto-hébergé), montrant les niveaux de prix auxquels les positions à effet de levier seraient liquidées."
+    - "Conçu des services REST et WebSocket (Python/FastAPI) pour découpler l'ingestion des données et l'ingénierie des variables de l'entraînement, de l'inférence et de l'exécution."
+
+- company:
     name: HEC Montréal
     url: "https://www.hec.ca"
     location: Montréal, Canada
-    # company overview
-    overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
-  - designation: Chargé de cours à temps partiel
-    start: January 2023
+  - designation: Chargé de cours à temps partiel, Gestion des opérations
+    start: September 2023
+    end: December 2024
     responsibilities:
-    - "Teaching the course 10500A Operations Management."
-    - "Corrects the assignments and exams."
+    - "Enseigné le cours Gestion des opérations (10500A) à des groupes de premier cycle; correction des travaux et des examens."
 
 - company:
     name: Southern University of Science & Technology
     url: "https://www.sustech.edu.cn/en/"
     location: Shenzhen, China
-    # company overview
-    overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
   - designation: Assistant de recherche
     start: July 2018
     end: August 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - "Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data."
-
+    - "Encodé des motifs de séquences d'ADN et des données épigénétiques en vecteurs d'embedding; construit et interprété des modèles CNN pour prédire les niveaux d'expression génique."
 
 - company:
-    name: DHP Furniture
+    name: DHP Furniture, une division des Industries Dorel
     url: "https://www.dhpfurniture.com/"
-    location: Montreal, Canada
-    overview: # PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    location: Montréal, Canada
   positions:
-  - designation: Demand Planner
+  - designation: Planificateur de la demande
     start: March 2017
-    end: May 2018
+    end: March 2018
     responsibilities:
-    - Reported to Senior Forecast Manager. Provided ad-hoc analyses and reports.
-    - Responsible for implementing Demand Solution DSX, a forecasting and planning software.
-    - Managed forecast of various e-commerce accounts.
+    - "Dirigé l'implantation de Demand Solutions DSX, un logiciel de prévision et de planification, dans l'entreprise."
+    - "Géré les prévisions de la demande pour plusieurs comptes de commerce électronique."
+    - "Produit des rapports et analyses quantitatives ponctuels pour la direction."
 
 - company:
     name: A.M.G. Medical Inc.
     url: "https://amgmedical.com/"
-    location: Montreal, Canada
-    overview: # Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    location: Montréal, Canada
   positions:
-  - designation: Operations Analyst
+  - designation: Analyste des opérations
     start: June 2016
-    end:  March 2017
+    end: March 2017
     responsibilities:
-    - Reported to VP of Operations. Provided ad-hoc analyses and reports.
-    - Created customized dashboards to monitor inbound logistics and visualize inventory projection with HTML & Javascript
-    - Automated various internal business processes with MS Access/Excel.
-  - designation: Forecasting & Planning Analyst
+    - "Produit des rapports hebdomadaires de surstock et animé la réunion mensuelle S&OP avec l'acheteur, le VP Opérations et les chefs de produit, où l'analyse orientait les décisions d'achat et de stock."
+  - designation: Analyste en prévision et planification
     start: March 2015
-    end:  June 2016
+    end: June 2016
     responsibilities:
-    - "Managed demand forecast and inventory."
-    - "Provided ad-hoc analyses and reports."
+    - "Amélioré la précision des prévisions en modélisant la saisonnalité et en nettoyant les valeurs aberrantes, faisant passer le taux de service des commandes d'environ 85 % à plus de 90 % sans augmenter les stocks."
+    - "Automatisé le pipeline de prévision de la demande, auparavant manuel et limité aux gammes prioritaires, pour couvrir l'ensemble du catalogue de plus de 3 000 UGS, avec des tableaux de bord sur mesure (HTML/JavaScript) pour visualiser les projections de stock et signaler les tendances de ventes et les anomalies à l'équipe des ventes."

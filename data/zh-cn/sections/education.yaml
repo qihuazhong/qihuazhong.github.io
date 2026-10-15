@@ -10,9 +10,9 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Operations Management and Logistics
+- name: 博士研究（ABD），运营管理与物流
   icon: fa-microscope
-  timeframe: 2019-present
+  timeframe: 2019-2024
   institution:
     name: 蒙特利尔高等商学院
     url: "https://www.hec.ca"
@@ -27,7 +27,6 @@ degrees:
   awards:
     - name: 魁北克自然与科学基金(FRQNT)博士研究奖学金
     - name: J.A. DeSève 博士优异奖学金
-
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
@@ -69,12 +68,12 @@ degrees:
 
 - name: 经济学学士 - 金融专业
   icon: fa-graduation-cap
-  timeframe: 2012-2014
+  timeframe: 2008-2012
   institution:
     name: 广东外语外贸大学
-    url: "https://www.gdufs.edu.cn/"
+    url: "https://english.gdufs.edu.cn/"
   extracurricularActivities: #(optional)
-  - Excellent Academic Performance Scholarship, 2011 (Top 3%)
-  - Excellent Sports& Arts Performance Scholarship, 2009 (Top 3%)
-  - L.O.V.E. 经贸学院志愿者协会
+  - 优秀学业奖学金，2011（前 3%）
+  - 优秀文体奖学金，2009（前 3%）
+  - 志愿者协会
   - 田径队
