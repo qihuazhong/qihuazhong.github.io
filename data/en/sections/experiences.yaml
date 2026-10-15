@@ -6,71 +6,74 @@ section:
   weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 
 # Your experiences
 experiences:
 - company:
+    name: Self-Employed
+    location: Montréal, Canada
+  positions:
+  - designation: Independent Data Scientist & AI Engineer
+    start: January 2025
+    # no end date: shown as "Present"
+    responsibilities:
+    - "Built and run GPU PRIX (gpuprix.com), a GPU spec and price comparison site (Next.js, React, TypeScript, AWS EC2) with automated data collection pipelines; grew it to 1,200+ daily unique visitors by using traffic analysis to find underserved markets and expanding into them."
+    - "Built a multi-agent localization workflow: a frontier LLM agent writes English content and delegates translation to a specialized local model (served with llama.cpp), with automated checks on length, glossary terms, numbers and code that reject a bad translation and ask for a revision."
+    - "Built a scheduled LLM agent (LangGraph, Claude API) that checks each scraped listing is filed under the right GPU and re-files or removes mismatches, with spending caps, a review-only mode and an accuracy test set that gate any change to live data."
+    - "Built low-latency pipelines processing GBs/day of real-time trade and order-book data from multiple exchanges; trained multi-target LightGBM quantile models of short-term price volatility and returns."
+    - "Built liquidation-risk maps from account-level position data (self-hosted blockchain node), showing the price levels at which leveraged positions would be forced to close."
+    - "Built REST and WebSocket services (Python/FastAPI) so data ingestion and feature engineering stay decoupled from training, inference and execution."
+
+- company:
     name: HEC Montréal
     url: "https://www.hec.ca"
     location: Montréal, Canada
-    # company overview
-    overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
-  - designation: Part-time Faculty Lecturer
-    start: January 2023
+  - designation: Part-Time Lecturer, Operations Management
+    start: September 2023
+    end: December 2024
     responsibilities:
-    - "Teaching the course 10500A Operations Management."
-    - "Corrects the assignments and exams."
+    - "Taught Operations Management (10500A) to undergraduate cohorts; graded assignments and exams."
 
 - company:
     name: Southern University of Science & Technology
     url: "https://www.sustech.edu.cn/en/"
     location: Shenzhen, China
-    # company overview
-    overview: # Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data.
   positions:
   - designation: Research Assistant
     start: July 2018
     end: August 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - "Built & interpreted neural network models that predict gene expression levels from DNA sequence and epigenetic data."
-
+    - "Encoded DNA sequence patterns and epigenetic data into embedding vectors, built and interpreted CNN models to predict gene expression levels."
 
 - company:
-    name: DHP Furniture
+    name: DHP Furniture, a division of Dorel Industries
     url: "https://www.dhpfurniture.com/"
-    location: Montreal, Canada
-    overview: # PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    location: Montréal, Canada
   positions:
   - designation: Demand Planner
     start: March 2017
-    end: May 2018
+    end: March 2018
     responsibilities:
-    - Reported to Senior Forecast Manager. Provided ad-hoc analyses and reports.
-    - Responsible for implementing Demand Solution DSX, a forecasting and planning software.
-    - Managed forecast of various e-commerce accounts.
+    - "Led the implementation of Demand Solutions DSX, a forecasting and planning software, in the company."
+    - "Managed demand forecasts for multiple e-commerce accounts."
+    - "Produced ad-hoc quantitative reports and analysis for management."
 
 - company:
     name: A.M.G. Medical Inc.
     url: "https://amgmedical.com/"
-    location: Montreal, Canada
-    overview: # Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    location: Montréal, Canada
   positions:
   - designation: Operations Analyst
     start: June 2016
-    end:  March 2017
+    end: March 2017
     responsibilities:
-    - Reported to VP of Operations. Provided ad-hoc analyses and reports.
-    - Created customized dashboards to monitor inbound logistics and visualize inventory projection with HTML & Javascript
-    - Automated various internal business processes with MS Access/Excel.
+    - "Delivered weekly overstock reports and led the monthly S&OP meeting with the buyer, VP of Operations and product managers, where the analysis set purchasing and inventory decisions."
   - designation: Forecasting & Planning Analyst
     start: March 2015
-    end:  June 2016
+    end: June 2016
     responsibilities:
-    - "Managed demand forecast and inventory."
-    - "Provided ad-hoc analyses and reports."
+    - "Improved forecast accuracy by modeling seasonal factors and cleaning outliers, lifting order fill rate from the mid-80s% to 90%+ without increasing inventory levels."
+    - "Automated the demand-forecasting pipeline, previously manual and limited to the highest-priority product lines, to cover the full 3,000+ SKU catalog, including custom dashboards (HTML/JavaScript) to visualize inventory projections and flag sales trends and anomalies to the sales team."

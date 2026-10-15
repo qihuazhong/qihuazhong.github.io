@@ -10,9 +10,9 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Operations Management and Logistics
+- name: Doctoral studies (ABD), Operations Management and Logistics
   icon: fa-microscope
-  timeframe: 2019-present
+  timeframe: 2019-2024
   institution:
     name: HEC Montréal
     url: "https://www.hec.ca"
@@ -49,7 +49,7 @@ degrees:
       outOf: 4.3
 
       
-- name: M.Sc. in Golobal Supply Chain Management
+- name: M.Sc. in Global Supply Chain Management
   icon: fa-graduation-cap
   timeframe: 2012-2014
   institution:
@@ -68,12 +68,12 @@ degrees:
 
 - name: B.Econ. in Finance
   icon: fa-graduation-cap
-  timeframe: 2012-2014
+  timeframe: 2008-2012
   institution:
     name: Guangdong University of Foreign Studies
     url: "https://english.gdufs.edu.cn/"
   extracurricularActivities: #(optional)
   - Excellent Academic Performance Scholarship, 2011 (Top 3%)
-  - Excellent Sports& Arts Performance Scholarship, 2009 (Top 3%)
+  - Excellent Sports & Arts Performance Scholarship, 2009 (Top 3%)
   - Volunteer Association
-  - Track&Field Team
+  - Track & Field Team

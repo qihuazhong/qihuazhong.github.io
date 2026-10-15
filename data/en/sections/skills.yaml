@@ -33,11 +33,15 @@ skills:
 
 - name: Python
   logo: /images/sections/skills/python.jpg
-  summary: "Used for machine learning, data analysis and problem solving."
+  summary: "Advanced. Machine learning, data pipelines, APIs (FastAPI) and analysis; plus SQL (PostgreSQL, SQLite)."
 
-- name: Pytorch
+- name: LLM Workflows
+  logo: /images/sections/skills/cloud.png
+  summary: "Agent workflows (LangGraph, Claude API), automated output evaluation, local model serving (llama.cpp), embeddings and RAG (pgvector)."
+
+- name: PyTorch
   logo: /images/sections/skills/pytorch.png
-  summary: "Used for building deep learning models."
+  summary: "Deep learning and reinforcement learning (Stable Baselines3). Also scikit-learn and LightGBM for forecasting and tabular models."
 
 - name: NumPy
   logo: /images/sections/skills/numpy.svg
@@ -49,7 +53,7 @@ skills:
 
 - name: Javascript/TypeScript
   logo: /images/sections/skills/js.png
-  summary: "For doing fun projects."
+  summary: "Working knowledge; built the GPU PRIX front end with Next.js and React."
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -57,7 +61,7 @@ skills:
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "I guess I'm going full-stack?"
+  summary: "Containerized services, deployed on AWS (EC2, ECR)."
 
 - name: Git
   logo: /images/sections/skills/git.png
